@@ -2,6 +2,9 @@
   "name": "perfil2",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "15.7.0"
+  },
   "dependencies": {
     "@brainhubeu/react-carousel": "^2.0.4",
     "@testing-library/jest-dom": "^5.11.4",
