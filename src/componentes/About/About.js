@@ -8,7 +8,7 @@ const About = ()=>{
             <div className="about-desc">
                 <h3>Let me tell you something about me</h3>
                 <p>I´m a Software Developer with abilities in backend and frontend. I´m a FullStack Developer.
-                By the way, I´m always learning a little bit more, IT is like an infinte loop 👨‍💻, don´t you think so?.</p>
+                By the way, I´m always learning a little bit more, IT is like an infinite loop 👨‍💻, don´t you think so?.</p>
             </div>
             <div className="about-img">
                 <img src={imagenperfil} alt="About Juan"/>
