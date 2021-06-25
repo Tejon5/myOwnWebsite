@@ -57,3 +57,22 @@
         width: 100%;
     }
 }
+
+@media only screen and (max-width:960){
+    .about-container{
+        flex-direction: column;
+        padding: 0;
+        padding: 40px 20px 50px 20px;
+    }
+    .about-desc>h3{
+        text-align: center;
+        font-size: 15px;
+    }
+    .about-img{
+        width: 100%;
+        margin-bottom:50px ;
+    }
+    .about-img>img{
+        width: 100%;
+    }
+}
