@@ -54,10 +54,16 @@
     border-bottom: 4px solid transparent;
 } 
 
-.linkedin:hover, .github:hover{
+.linkedin:hover, .github:hover {
     color: gold;
     transition: all 300ms ease-out;
     font-size: 60px;
+}
+
+.phone:hover, .email:hover{
+    color:gold;
+    transition: all 200ms ease-in-out;
+    font-weight: bold;
 }
 
 .design-by{
@@ -65,6 +71,8 @@
     padding-left: 50px;
     color: white;
 }
+
+
 
 @media only screen and (max-width:960px){
     .footer-info{
