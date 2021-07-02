@@ -1,6 +1,7 @@
 import React from "react";
 import "./Slider.css";
 import todo from "../../media/todoapp2.jpg";
+import meli from "../../media/MeliChallenge.jpg"
 
 
 const slidesInfo = [
@@ -22,6 +23,12 @@ const slidesInfo = [
         href:"https://actitud.herokuapp.com/",
         desc:"Ecommerce"
     },
+    {
+        src:meli,
+        alt:"Proyect 4",
+        href:"https://github.com/Tejon5/MELIChallenge",
+        desc:"MeliChallenge"
+    }
 ]
 
 
