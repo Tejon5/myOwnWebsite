@@ -1,6 +1,6 @@
 import React from "react";
 import "./Slider.css";
-
+import todo from "../../media/todoapp2.jpg";
 
 
 const slidesInfo = [
@@ -10,12 +10,12 @@ const slidesInfo = [
         href: "https://find-your-henry-rho.vercel.app",
         desc:"Henry Dev Job"
     },
-    /* {
-        src: "https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg",
-        alt:"Project 2",
-        href:"",
-        desc:"Project 2"
-    }, */
+     {
+        src: todo,
+        alt:"To Do App",
+        href:"https://tejon-todo-type-react.herokuapp.com/",
+        desc:"To Do App"
+    }, 
     {
         src: "https://images.pexels.com/photos/8339774/pexels-photo-8339774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         alt:"Project 3",
@@ -24,13 +24,16 @@ const slidesInfo = [
     },
 ]
 
+
+
 const Slides = slidesInfo.map(slide=>(
     <div className="slide-container">
         <img src={slide.src} alt={slide.alt} />
         <div className="slide-desc">
           <a href={slide.href} rel="noreferrer" target="_blank">{slide.desc}</a> 
-        </div>
+        </div>      
     </div>
 ))
+
 
 export default Slides;

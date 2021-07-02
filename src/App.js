@@ -21,14 +21,14 @@ useEffect(()=>{
 },[scrollHeigth])
 
   return (
-    <div className="App">
+        <div className="App">
         <Navbar isScrolling={scrollHeigth}/>
         <Cover/>
         <About/>
         <Slider/>
         <Info/>
         <Footer/>
-    </div>
+        </div>
   );
 }
 

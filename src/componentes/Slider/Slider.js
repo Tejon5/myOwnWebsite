@@ -27,6 +27,7 @@ const Slider = () =>{
                 }
             }}
             />
+
         </div>
     )
 }
