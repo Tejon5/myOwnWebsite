@@ -18,7 +18,7 @@ const handleScroll = ()=>{
 
 useEffect(()=>{
   window.addEventListener("scroll", handleScroll)
-},[scrollHeigth])
+},[scrollHeigth]);
 
   return (
         <div className="App">
