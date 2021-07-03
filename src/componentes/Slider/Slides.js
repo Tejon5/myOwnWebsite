@@ -1,7 +1,7 @@
 import React from "react";
 import "./Slider.css";
 import todo from "../../media/todoapp2.jpg";
-import meli from "../../media/MeliChallenge.jpg"
+import meli from "../../media/mch.jpg";
 
 
 const slidesInfo = [
@@ -26,7 +26,7 @@ const slidesInfo = [
     {
         src:meli,
         alt:"Proyect 4",
-        href:"https://github.com/Tejon5/MELIChallenge",
+        href:"https://mchallenge-tejon5.vercel.app/",
         desc:"MeliChallenge"
     }
 ]
