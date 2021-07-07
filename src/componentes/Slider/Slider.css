@@ -56,7 +56,7 @@
     color: white;
 }
 .BrainhubCarousel__arrows{
-    background-color: white;
+    background-color:gold !important;
     border-radius: 50%;
     margin: 20px;
 }
@@ -66,12 +66,16 @@
 }
 
 .BrainhubCarousel__arrows:hover{
-    background-color: white !important;
+    background-color:honeydew !important;
+    border:3px solid gold;
 }
 
 .BrainhubCarousel__arrows:hover>span{
     border-color: black !important;
 }
+
+
+
 
 @media only screen and (max-width:960px){
     .carousel-container{

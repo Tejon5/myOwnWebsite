@@ -38,7 +38,10 @@ const Slides = slidesInfo.map(slide=>(
         <img src={slide.src} alt={slide.alt} />
         <div className="slide-desc">
           <a href={slide.href} rel="noreferrer" target="_blank">{slide.desc}</a> 
-        </div>      
+        </div>  
+        <div className="info">
+            <p>la la lalalalalaalal la lal ahey juuuuude la la lalalalalaalal la lal ahey juuuuudela la lalalalalaalal la lal ahey juuuuudela la lalalalalaalal la lal ahey juuuuude</p>
+        </div>    
     </div>
 ))
 
