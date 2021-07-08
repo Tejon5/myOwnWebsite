@@ -93,3 +93,12 @@
         padding: 0 0 40px 0;
     }
 }
+
+@media(max-width:500px){
+    .sns-links{
+        width: 20px;
+        display: flex;
+        margin-bottom: 140px;
+        margin-left: 20px;
+    }   
+}
