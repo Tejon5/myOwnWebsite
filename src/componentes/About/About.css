@@ -94,3 +94,25 @@ img{
     }
 
 }
+
+@media(max-width:360px){
+        .about-container{
+            flex-direction: column;
+            padding: 0;
+            height: auto;
+        }
+    
+ 
+    .about-img>img{
+        width: 50%;
+        height: 90%;
+        align-self: center;
+       /* border: 5px solid black;
+       padding: 3px;   */
+       margin-bottom: 10px; 
+       border-radius: 15px;
+        margin-left: 110px;   
+    }
+
+ 
+}
