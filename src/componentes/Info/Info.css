@@ -27,7 +27,7 @@
 @media (max-width:320px){
     .info-container{
         height: 200px;
-        width: 545px;
+        width: 100%;
     }
     .info > h1{
         text-align: center;

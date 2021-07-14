@@ -42,9 +42,9 @@
 
 @media (max-width:320px){
     .cover-container{
-        width: 545px;
+        width: 100%;
     }
     .video{
-        width: 545px;
+        width: 100%;
     }
 }
