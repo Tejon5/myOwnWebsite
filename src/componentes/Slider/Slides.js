@@ -1,7 +1,7 @@
 import React from "react";
 import "./Slider.css";
 import todo from "../../media/todoapp2.jpg";
-import meli from "../../media/mch.jpg";
+//import meli from "../../media/mch.jpg";
 
 
 const slidesInfo = [
@@ -22,13 +22,13 @@ const slidesInfo = [
         alt:"Project 3",
         href:"https://actitud.herokuapp.com/",
         desc:"Ecommerce"
-    },
+    },/*
     {
         src:meli,
         alt:"Proyect 4",
         href:"https://mchallenge-tejon5.vercel.app/",
         desc:"MeliChallenge"
-    }
+    }*/
 ]
 
 
@@ -39,9 +39,7 @@ const Slides = slidesInfo.map(slide=>(
         <div className="slide-desc">
           <a href={slide.href} rel="noreferrer" target="_blank">{slide.desc}</a> 
         </div>  
-        <div className="info">
-            <p>la la lalalalalaalal la lal ahey juuuuude la la lalalalalaalal la lal ahey juuuuudela la lalalalalaalal la lal ahey juuuuudela la lalalalalaalal la lal ahey juuuuude</p>
-        </div>    
+    
     </div>
 ))
 

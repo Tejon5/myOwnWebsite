@@ -90,3 +90,9 @@
         width: 100%;
     }
 }
+
+@media (max-width: 320px){
+    .carousel-container{
+        width: 545px;
+    }
+}
