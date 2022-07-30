@@ -6,13 +6,15 @@ const About = ()=>{
     return(
         <div className="about-container">
             <div className="about-desc">
-                <h3>Let me tell you something about me</h3>
-                <p>I´m a Software Developer with abilities in backend and frontend. I´m a FullStack Developer.
-                By the way, I´m always learning a little bit more, IT is like an infinite loop 👨‍💻, don´t you think so?.</p>
+                <h3>Let me tell you something about me​</h3>
+                <p>I´m a Software Developer with abilities in backend and frontend.</p>
+                <p>I´m a FullStack Developer 👨‍💻.</p>
+                <p> By the way, I´m always learning a little bit more, IT is like an infinite loop, don´t you think so?🤔​</p>
                 <div className="languages-container">
                     <img className="une" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5"  />
                     <img className="une" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"  />
                     <img className="une" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript"  />
+                    <img className="une" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" alt="Boostrap"  />
                     <img className="une" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react"  />
                     <img className="une" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux"  />
                     <img className="une" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript"  />
