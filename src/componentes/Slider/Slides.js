@@ -28,7 +28,13 @@ const slidesInfo = [
         alt:"Proyect 4",
         href:"https://mchallenge-tejon5.vercel.app/",
         desc:"MeliChallenge"
-    }
+    },
+    /*{
+        src:calculadolar,
+        alt:"Proyecto 5",
+        href:"",
+        desc:"Calculadolar"
+    },*/
 ]
 
 

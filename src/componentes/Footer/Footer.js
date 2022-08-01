@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import cv from "../../media/JuanVillalbaCV(English).pdf"; 
+import cv2 from "../../media/JuanVillalbaCV(Español).pdf"; 
+
 
 const Footer = () =>{
     const email = "juan.villalba08@gmail.com";
@@ -17,7 +19,7 @@ const Footer = () =>{
                 <p className="data-contact">👉📱  {mobile}</p>
                 <p className="data-contact">👉📧  {email}</p>
                 <p className="data-contact">👉📑​ <a href={cv} download="JuanVillalbaCV-english">CV - English Version -</a></p>
-                <p className="data-contact">👉📑​ <a href={cv} download="JuanVillalbaCV-spanish">CV - Version en Español -</a></p>
+                <p className="data-contact">👉📑​ <a href={cv2} download="JuanVillalbaCV-spanish">CV - Version en Español -</a></p>
                 <p>And let´s get down to work</p>
             </div>
             <div className="footer-sns">
