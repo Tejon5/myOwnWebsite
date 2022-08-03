@@ -1,7 +1,10 @@
 import React from "react";
 import "./Slider.css";
-import todo from "../../media/todoapp2.jpg";
-import meli from "../../media/mch.jpg";
+import todo from "../../media/todoapp.jpg";
+import meli from "../../media/henrymelichallenge.jpg";
+import calculadolar from "../../media/calculadolar.jpg"
+import henrydevjob from "../../media/henrydevjob.jpg"
+import henryecommerce from "../../media/henryecommerce.jpg"
 
 const consologuer = ()=>{
     console.log("hola chiche")
@@ -10,7 +13,7 @@ const consologuer = ()=>{
 
 const slidesInfo = [
     {
-        src: "https://images.pexels.com/photos/8339775/pexels-photo-8339775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        src: henrydevjob,
         alt:"Project1",
         href: "https://find-your-henry-rho.vercel.app",
         desc:"Henry Dev Job"
@@ -22,7 +25,7 @@ const slidesInfo = [
         desc:"To Do App"
     }, 
     {
-        src: "https://images.pexels.com/photos/8339774/pexels-photo-8339774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        src: henryecommerce,
         alt:"Project 3",
         href:"https://actitud.herokuapp.com/",
         desc:"Ecommerce"
@@ -33,12 +36,12 @@ const slidesInfo = [
         href:"https://mchallenge-tejon5.vercel.app/",
         desc:"MELI"
     },
-    /*{
+    {
         src:calculadolar,
         alt:"Proyecto 5",
         href:"",
         desc:"Calculadolar"
-    },*/
+    },
 ]
 
 
