@@ -3,6 +3,10 @@ import "./Slider.css";
 import todo from "../../media/todoapp2.jpg";
 import meli from "../../media/mch.jpg";
 
+const consologuer = ()=>{
+    console.log("hola chiche")
+}
+
 
 const slidesInfo = [
     {
@@ -27,7 +31,7 @@ const slidesInfo = [
         src:meli,
         alt:"Proyect 4",
         href:"https://mchallenge-tejon5.vercel.app/",
-        desc:"MeliChallenge"
+        desc:"MELI"
     },
     /*{
         src:calculadolar,
