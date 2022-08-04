@@ -79,10 +79,10 @@ const Slides = slidesInfo.map(slide => (
         <img src={slide.src} alt={slide.alt} onClick={() => alert("wait... a new feature is coming")} />
         <div className="slide-desc">
             <a href={slide.href} rel="noreferrer" target="_blank">Ir a la app</a>
-           
-       </div>
-
+        </div>
+        <p>Hola chango</p>
     </div>
+    
 ))
 
 
