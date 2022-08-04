@@ -76,7 +76,7 @@ const slidesInfo = [
 
 const Slides = slidesInfo.map(slide => (
     <div className="slide-container">
-        <img src={slide.src} alt={slide.alt} onClick={() => alert("hola capo")} />
+        <img src={slide.src} alt={slide.alt} onClick={() => alert("wait... a new feature is coming")} />
         <div className="slide-desc">
             <a href={slide.href} rel="noreferrer" target="_blank">Ir a la app</a>
            
