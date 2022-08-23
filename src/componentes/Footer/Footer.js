@@ -7,7 +7,7 @@ import cv2 from "../../media/JuanVillalbaCV(Español).pdf";
 const Footer = () => {
     const email = "juan.villalba08@gmail.com";
     const mobile = "+541137688667";
-
+    const invite = "https://wa.me/qr/NOIABVXLSZFND1"
     return (
         <footer className="footer">
 
@@ -19,7 +19,7 @@ const Footer = () => {
 
                 <div className="footer-contact">
                     <h3>Contact Me</h3>
-                    <p className="data-contact">👉📱  {mobile}</p>
+                    <p className="data-contact">👉📱 <a href={invite}>{mobile} </a> </p>
                     <p className="data-contact">👉📧  {email}</p>
                     <p className="data-contact">👉📑​ <a className="data-contact-cv" href={cv} download="JuanVillalbaCV-english">CV - English Version </a></p>
                     <p className="data-contact">👉📑​ <a className="data-contact-cv" href={cv2} download="JuanVillalbaCV-spanish">CV - Version en Español </a></p>
