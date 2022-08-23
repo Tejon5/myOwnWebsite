@@ -22,12 +22,10 @@ const Footer = () =>{
                 <p className="data-contact">👉📑​ <a className="data-contact-cv" href={cv2} download="JuanVillalbaCV-spanish">CV - Version en Español </a></p>
                 <p>And let´s get down to work</p>
             </div>
-            <div className="footer-sns">
-                <div className="design-by">
-                    
-                </div>
+
+
                 <div className="sns-links">
-                    <a href="https://www.linkedin.com/in/juan-villalba-9aa4921a9/" 
+                    <a href="https://www.linkedin.com/in/juanvillalba5/" 
                     rel="noreferrer" target="_blank">
                         <i className="fab fa-linkedin linkedin"></i>
                     </a>
@@ -35,7 +33,7 @@ const Footer = () =>{
                         <i className="fab fa-github github"></i>
                     </a>
                 </div>
-            </div>
+
         </footer>
 
     )
