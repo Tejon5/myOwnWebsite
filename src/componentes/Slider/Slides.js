@@ -6,38 +6,8 @@ import calculadolar from "../../media/calculadolar.jpg";
 import henrydevjob from "../../media/henrydevjob.jpg";
 import henryecommerce from "../../media/henryecommerce.jpg";
 import samvilla from "../../media/samvilla.jpg";
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import ReviewModal,{handleShow} from "../modals/ReviewModal";
 
-const ReviewModal = () => {
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-    return (
-        <>
-            <Button variant="primary" onClick={handleShow}>
-                Launch demo modal
-            </Button>
-
-            <Modal show={show} onHide={handleClose}>
-                <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Close
-                    </Button>
-                    <Button variant="primary" onClick={handleClose}>
-                        Save Changes
-                    </Button>
-                </Modal.Footer>
-            </Modal>
-        </>
-    );
-}
 
 
 const slidesInfo = [
@@ -81,11 +51,11 @@ const slidesInfo = [
 ]
 
 
-
+/*Por favor, leer documentacion, es un lindo desafio conectar el modal */
 const Slides = slidesInfo.map(slide => (
     <>
     <div className="slide-container">
-        <img src={slide.src} alt={slide.alt} onClick={() => alert("wait... a new feature is coming")} />
+        <img src={slide.src} alt={slide.alt} /*onClick={() => handleShow}*/ />
         <div className="slide-desc">
        
 
