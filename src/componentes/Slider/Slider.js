@@ -14,27 +14,27 @@ const Slider = () =>{
             </div>
             <Carousel
             plugins={["arrows","infinite"]}
-            slidesPerPage={6}
+            /*slidesPerPage={6}*/
             animationSpeed={700}
             centered
-            offset={50}
+            offset={0}
             itemWidth={400}
             slides={Slides}
-
+            
             breakpoints={{
                 960:{
-                    slidesPerPage:1,
+                    slidesPerPage:1.5,
                     arrows:false,
                     itemWidth:250, 
                 },
                 /*No tocar, ahi esta bien chango, para hacer cambios mutear este por las dudas, mucho costo*/
                 420:{
-                    slidesPerPage:2,
-                    arrows:false,
+                    slidesPerPage:6,
+                    /*arrows:false,*/
                     centered:true,
-                    itemWidth:220,
-                    animationSpeed:700,
-                    offset:30
+                    itemWidth:250,
+                    animationSpeed:500,
+                    offset:20
                 }
             }}
             
