@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { /*useState */} from "react";
 import "./Slider.css";
 import todo from "../../media/todoapp.jpg";
 import meli from "../../media/henrymelichallenge.jpg";
@@ -6,7 +6,7 @@ import calculadolar from "../../media/calculadolar.jpg";
 import henrydevjob from "../../media/henrydevjob.jpg";
 import henryecommerce from "../../media/henryecommerce.jpg";
 import samvilla from "../../media/samvilla.jpg";
-import ReviewModal,{handleShow} from "../modals/ReviewModal";
+/*import ReviewModal,{handleShow} from "../modals/ReviewModal";*/
 
 
 
