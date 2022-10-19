@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "15.7.0"
+    "node": "16"
   },
   "dependencies": {
     "@brainhubeu/react-carousel": "^2.0.4",
