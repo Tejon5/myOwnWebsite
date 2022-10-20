@@ -26,8 +26,7 @@ const Slider = () =>{
             slides={Slides}
             
             breakpoints={{
-
-                420:{
+                360:{
                     /*arrows:false,*/
                     /*centered:true,
                     itemWidth:250,
@@ -39,7 +38,24 @@ const Slider = () =>{
                         {
                           resolve: slidesToShowPlugin,
                           options: {
-                           numberOfSlides: 1
+                           numberOfSlides: 0.85 /*OPTIMO 1.1*/ 
+                          }
+                        },
+                      ]
+                },
+                462:{
+                    /*arrows:false,*/
+                    /*centered:true,
+                    itemWidth:250,
+                    animationSpeed:500,
+                    offset:20*/
+                    
+                    plugins: [
+                        'arrows','centered',
+                        {
+                          resolve: slidesToShowPlugin,
+                          options: {
+                           numberOfSlides: 1.1/*OPTIMO 1.1*/ 
                           }
                         },
                       ]
