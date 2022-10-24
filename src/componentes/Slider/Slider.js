@@ -48,7 +48,7 @@ const Slider = () =>{
                       },
                     ]
               },
-                420:{   
+                415:{   
                   plugins: [
                       'arrows','centered',
                       {
