@@ -59,7 +59,7 @@ const Slides = slidesInfo.map(slide => (
         <div className="slide-desc">
        
 
-            <a href={slide.href} rel="noreferrer" target="_blank">Click Here!</a>
+            <a className='clicked' href={slide.href} rel="noreferrer" target="_blank">Click Here!</a>
         </div>
     </div>
         

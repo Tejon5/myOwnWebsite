@@ -26,6 +26,19 @@ const Slider = () =>{
             slides={Slides}
             
             breakpoints={{
+              /*Este es el Breakpoint del xiaomi m1 a1*/
+              360:{   
+                plugins: [
+                    'arrows','centered',
+                    {
+                      resolve: slidesToShowPlugin,
+                      options: {
+                       numberOfSlides: 0.85 
+                      }
+                    },
+                  ],
+                  /*itemWidth:250*/
+            },
                 380:{   
                     plugins: [
                         'arrows','centered',
@@ -48,7 +61,7 @@ const Slider = () =>{
                       },
                     ]
               },
-                420:{   
+                415:{   
                   plugins: [
                       'arrows','centered',
                       {
