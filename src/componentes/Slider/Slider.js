@@ -48,13 +48,13 @@ const Slider = () =>{
                       },
                     ]
               },
-                415:{   
+                420:{   
                   plugins: [
                       'arrows','centered',
                       {
                         resolve: slidesToShowPlugin,
                         options: {
-                         numberOfSlides: 1.05
+                         numberOfSlides: 1.07
                         }
                       },
                     ]
