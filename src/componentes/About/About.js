@@ -24,6 +24,7 @@ const About = ()=>{
                     <img className="une" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb"  />
                     <img className="une" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql"  />
                     <img className="une" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman"  />
+                    <img className='une' src="https://cdn.worldvectorlogo.com/logos/wordpress-blue.svg" alt='wordpress' />
                     <img className="due" src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-ar21.svg" alt="azure"  />
                     <img className="due" src="https://www.vectorlogo.zone/logos/shopify/shopify-ar21.svg" alt="shopify"  />
                     <img className="due" src="https://www.vectorlogo.zone/logos/asana/asana-ar21.svg" alt="asana" />

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Cover.css";
-import video2 from "../../media/video2.mp4"
+import video2 from "../../media/video2.mp4";
 
 
 const Cover = () =>{
